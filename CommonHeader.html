@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="header" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <style>
+        html{
+            font-family: "lato"; 
+            text-align: center;
+        }
+
+        body{
+            margin: 10px 0px;
+        }  
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .header{
+            height: 60px;
+            width: 85%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        #headerlogo{
+            height: 60px; 
+            width: 60px; 
+            float: left;
+            margin-right: 25px;
+        }
+
+        .name{
+            text-align: left;
+            position: absolute;
+            margin-top: 12px;
+            margin-left: 75px;
+        }
+
+        .name h1{
+            font-size: 24px;
+            margin: 0px 0px;
+            font-weight: 400;
+        }
+
+        .name h3{
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 0px;
+            margin-top: 4px;
+        }
+
+        .nav{
+            float: right;
+            display: flex;
+        }
+
+        .nav-item{
+            font-weight: 300;
+            font-size: 14px;
+            margin-left: 40px;
+            list-style-type: none;
+            text-decoration: none;
+            transition: 0.2s;
+        }
+
+        .nav-item:hover{
+            background-color: black;
+        }
+
+        .navitemword:hover{
+            color:white;
+            transition: 0.2s;
+        }
+    </style>
+</head>
+
+
+<body>
+<div class = header>
+    <a href = "../index.html">
+        <img ID = "headerlogo" src = "../HomePage/Mylogo.jpg">
+    </a>
+    
+    <div class = "name">
+        <h1>
+            TIANCHENG YANG
+        </h1>    
+        <h3>
+            Portfolio
+        </h3>
+    </div>
+        
+    <ul class = "nav">
+        <li class = "nav-item">
+            <a class = "navitemword" href = "../index.html">
+                Home
+            </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "navitemword" href = "/Projects/Projects.html">
+                Projects
+            </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "navitemword" href = "/Gallery/Gallery.html">
+                Gallery
+            </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "navitemword" href = "/Resume/Resume.html">
+                About Me
+            </a>
+        </li>
+        <li class = "nav-item">
+            <a class = "navitemword" href = "/log/log.html">
+                Development Log
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
