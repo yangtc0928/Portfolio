@@ -11,22 +11,9 @@ a{
     text-decoration: none;
 }
 
-.bold{
-    font-weight: 400;
+b{
+    font-weight: 500;
 }
-
-#title-pic{
-    background:linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) ), url(Images/title-pic.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    background-size: 100%;
-    height: 700px;
-    width: 100%;
-    display:table;
-    margin-top: 10px;
-}
-
 
 #title{
     color: white;
@@ -52,10 +39,6 @@ a{
     font-weight: 300;
 }
 
-b{
-    font-weight: 700;
-}
-
 #title h6{
     font-weight: 400;
     margin: 10px auto;
@@ -72,6 +55,9 @@ b{
 
 .content img{
     width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .stagediv{
@@ -80,12 +66,7 @@ b{
     margin: 0 auto;
     box-sizing: content-box;
     border-bottom: 1px solid #DEDDDD;
-    padding: 50px 50px;   
-}
-
-.idea{
-    margin-bottom: 50px;
-    border-bottom: 1px dashed #DEDDDD;
+    padding: 50px 50px;
 }
 
 .stagediv h2{
@@ -108,6 +89,24 @@ b{
     max-width: 75%;
     margin: 10px auto 30px;
     text-align: center;
+}
+
+.idea{
+    margin-bottom: 50px;
+    border-bottom: 1px dashed #DEDDDD;
+}
+
+.imgBox{
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    align-content: center;
+}
+
+#imgBoxh{
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px
 }
 
 .grey{
