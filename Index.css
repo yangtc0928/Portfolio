@@ -14,7 +14,7 @@ a{
 
 .header{
     height: 80px;
-    width: 85%;
+    width: 60%;
     max-width: 1200px;
     padding-top: 50px;
     margin: auto;
@@ -57,7 +57,7 @@ a{
 .nav-item{
     font-weight: 300;
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: 50px;
     list-style-type: none;
     text-decoration: none;
     transition: 0.2s;
@@ -72,64 +72,23 @@ a{
     transition: 0.2s;
 }
 
-/*
-.profile{
-    margin-top: 50px;
-}
-
-#profilepic{
-    border-radius: 50%;
-    height: 350px; 
-}
-
-.profile h1{
-    font-size: 40px;
-    font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
-
-.profile h3{
-    font-weight: 300;
-    margin-bottom: 110px;
-}
-
-.menu-item{
-    box-sizing: border-box;
-    width: 33.33%;
-    float: left;
-    padding: 0px;    
-}
-*/
-
-/*
-.menu-item .image:hover{
-    -webkit-filter: brightness(1.2);
-    filter: brightness(1.15);
-    text-shadow: 0 0 5px grey;
-}
-*/
-
 div.scrollmenu {
-    margin-top: 100px;
-    overflow: auto;
-    white-space: nowrap;
+    padding-top: 100px;
+    margin: auto;
+    width: 70%; 
+    max-width: 700px;
 }
 
-div.scrollmenu a {
-    width: 40%;
-    display: inline-block;
-    color: white;
-    text-align: center;
+div.menu-item {
     padding: 14px;
+    margin-bottom:30px;
     transition: 0.2s;
+    text-align: 
 }
 
-div.scrollmenu a:hover {
+div.menu-item:hover {
     -webkit-filter: brightness(1.2);
     filter: brightness(1.15);
-/*    text-shadow: 0 0 5px grey;*/
 }
 
 .image{
@@ -140,17 +99,17 @@ div.scrollmenu a:hover {
 
 .scrollmenu h2{
     font-size: 22px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: 400;
     margin-bottom: 10px;
     color: black;
 }
 
 .scrollmenu h3{
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
     margin-top: 0px;
-    color: black;
+    color: grey;
 }
 
 #footer{

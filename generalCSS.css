@@ -50,7 +50,9 @@ b{
     margin: 0 auto;
     padding: 0px;
     line-height: 1.6;
-    max-width: 1500px;
+    max-width: 1200px;
+    min-width: 400px;
+    width: 60%;
 }
 
 .content img{
@@ -61,8 +63,6 @@ b{
 }
 
 .stagediv{
-    width: 60%;
-    min-width: 400px;
     margin: 0 auto;
     box-sizing: content-box;
     border-bottom: 1px solid #DEDDDD;
