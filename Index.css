@@ -10,6 +10,7 @@ body{
 a{
     color: black;
     text-decoration: none;
+    border-width: 0px;
 }
 
 .header{
@@ -21,10 +22,17 @@ a{
 }
 
 #headerlogo{
+    background-image: url(HomePage/mylogo.jpg);
+    background-size: 79px;
     height: 80px;
     width: 80px;
     float: left;
     margin-right: 25px;
+}
+
+#headerlogo:hover{
+    background-image: url(HomePage/Mylogohover.png);
+    background-size: 79px;
 }
 
 .name{
@@ -46,8 +54,6 @@ a{
     margin-bottom: 0px;
     margin-top: 4px;
 }
-
-
 
 .nav{
     float: right;
