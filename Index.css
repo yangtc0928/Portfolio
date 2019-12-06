@@ -109,6 +109,15 @@ div.menu-item:hover {
     font-size: 16px;
     font-weight: 400;
     margin-top: 0px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.scrollmenu h5{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+    padding: 0px;
     color: grey;
 }
 
