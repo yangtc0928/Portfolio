@@ -22,8 +22,6 @@ a{
 }
 
 #headerlogo{
-    background-image: url(HomePage/mylogo.jpg);
-    background-size: 79px;
     height: 80px;
     width: 80px;
     float: left;
