@@ -77,56 +77,22 @@ a{
     transition: 0.2s;
 }
 
-div.scrollmenu {
-    padding-top: 100px;
-    margin: auto;
-    width: 60%; 
-    max-width: 1200px;
+
+#camera{
+    position: absolute;
+    width: 197px;
+    height: 196px;
+    left: 796px;
+    top: 260px;
+
+    background: url(Cover/camera.png);
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
-div.menu-item {
-    padding: 0px;
-    margin-bottom: 100px;
-    transition: 0.2s;
-}
 
-div.menu-item:hover {
-/*
-    -webkit-filter: brightness(1.2);
-    filter: brightness(1.15);
-*/
-}
+
+
 
 .image{
     width: 100%;
     border-radius: 0px;
-    
-}
-
-.scrollmenu h2{
-    font-size: 22px;
-    margin-top: 20px;
-    font-weight: 400;
-    margin-bottom: 10px;
-    color: black;
-}
-
-.scrollmenu h3{
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    color: grey;
-}
-
-.scrollmenu h5{
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 0px;
-    padding: 0px;
-    color: grey;
-}
-
-#footer{
-    margin-top: 550px;
-}
