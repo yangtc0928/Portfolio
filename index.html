@@ -5,6 +5,8 @@
     <meta http-equiv="Cache-control" content="no-cache">
     <link href = "Index.css" type = "text/css" rel = "stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TC's Portfolio</title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script> 
@@ -12,75 +14,67 @@
             $("#header").load("../CommonHeader.html"); 
             $("#footer").load("../CommonFooter.html"); 
         });
-    </script>
+    </script> 
 </head>
 
 <body>
 <div class = header>
     <a href = "index.html">
-        <img ID = "headerlogo" src = "HomePage/Mylogo.jpg">
+        <img ID = "headerlogo" src = "HomePage/logo_normal.png">
     </a>
-
+    
     <div class = "name">
         <h1>
-            TIANCHENG &#39;&#39;TC&#39;&#39; <br>YANG
-        </h1>    
-<!--
-        <h3>
-            Portfolio
-        </h3>
--->
-    </div>
-    
-    
-<!--photo and story--><div class = "story">
-    
-    
+            TIANCHENG &#39;&#39;TC&#39;&#39; <br> YANG
+        </h1>
     </div>
         
-    <ul class = "nav">
-<!--
+    <!--<ul class = "nav">
         <li class = "nav-item">
             <a class = "navitemword" href = "/Projects/Projects.html">
-                Projects
+                Design
             </a>
         </li>
--->
         <li class = "nav-item">
             <a class = "navitemword" href = "/Gallery/Gallery.html">
-                Gallery
+                Engineering
             </a>
         </li>
         <li class = "nav-item">
             <a class = "navitemword" href = "/Resume/Resume.html">
-                About
+                Photography
             </a>
         </li>
-<!--
         <li class = "nav-item">
             <a class = "navitemword" href = "/log/log.html">
-                Development Log
+                Film Making
             </a>
         </li>
--->
-    </ul>
+    </ul>-->
+</div>
+
+<div class = "intro">
+    <p id = "who">
+        WHO IS TC?
+    </p>
+    <p class = "role">
+        A 60&#58;40 hybrid of an experience <span><a href = "LaundroPod/laundropod.html">designer</a></span> and an <span><a href = "FSAE/fsae.html"> mechanical engineering</a></span>. 
+    </p>
+    <p class = "role">
+        A <span><a href = "Gallery/Gallery.html">photographer</a></span> as well as a <span><a href = "https://www.youtube.com/channel/UCVjLHoMrL066ttpQIzpFgAw/featured?view_as=subscriber" target="_blank">film maker</a></span>. 
+    </p>    
 </div>
     
-<!--
-<div class = profile>
-    <img ID = "profilepic" src = "/HomePage/Profilepic.jpg">
-        
-    <h1>
-        TIANCHENG YANG
-    </h1>
+<img id = "bg" src = "Cover/bg2.png">
     
-    <h3>
-        Designer.&nbsp;&nbsp;&nbsp;Engineer.&nbsp;&nbsp;&nbsp;Photographer.&nbsp;&nbsp;&nbsp;Motorsport enthusiast.
-    </h3>
+<!--
+<div class="arrow bounce">
+    <div class="fa fa-angle-down fa-4x">
+    </div>
 </div>
 -->
 
-<div class="scrollmenu">
+<div class = "scrollmenu">
     <a href = "/LaundroPod/laundropod.html">
     <div class = "menu-item">
             <img class = "image" src = "/LaundroPod/images/menu-pic.png">
@@ -89,11 +83,8 @@
         </h2>
         
         <h3>
-            Integrated Product Development Class Project &#43; Personal Project
+            Integrated Product Development Class Project
         </h3>
-        <h5>
-            Oct 2019 &#45; Now
-        </h5>
     </div>
     </a>
     
@@ -107,9 +98,6 @@
         <h3>
             User Research Class Project
         </h3>
-        <h5>
-            Oct 2019
-        </h5>
     </div>
     </a>
         
@@ -123,9 +111,6 @@
         <h3>
             SusProg Redesign Individual Project
         </h3>
-        <h5>
-            Aug 2018
-        </h5>
     </div>
     </a>
     
@@ -139,9 +124,6 @@
         <h3>
             Formula SAE Competition
         </h3>
-        <h5>
-            May 2019
-        </h5>
     </div>
     </a>
     
@@ -155,12 +137,11 @@
         <h3>
             Redesigning Photo Viewing Experience
         </h3>
-        <h5>
-            Aug 2018
-        </h5>
     </div>
     </a>
-</div>
-    
+</div> 
+  
+<div id = "footer"></div>
+
 </body>
 
