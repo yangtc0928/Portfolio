@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>TC's Portfolio</title>
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script> 
         $(function(){
             $("#header").load("../CommonHeader.html"); 
@@ -18,6 +19,21 @@
 </head>
 
 <body>
+<div id="hellobar-bar" class="regular closable">
+    <div class="hb-content-wrapper">
+        <div class="hb-text-wrapper">
+            <div class="hb-headline-text">
+                <p>The website is in the process of redesign, so there may be some bugs. However, they do not affect reading. All bugs will be fixed by Friday, Mar 13th. </p>
+            </div>
+        </div>
+    <a onclick="$('#hellobar-bar').fadeOut()" class="hb-cta hb-cta-button">
+            <div class="hb-text-holder">
+                <p>Got it.</p>
+            </div>
+        </a>
+    </div>
+</div>
+    
 <div class = header>
     <a href = "index.html">
         <img ID = "headerlogo" src = "HomePage/logo_normal.png">
